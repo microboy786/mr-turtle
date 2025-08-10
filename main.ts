@@ -7,7 +7,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     turtle.turnRight()
 })
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
     turtle.forward(1)
 })
 basic.showString("its MR.TURTLE")
